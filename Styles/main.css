@@ -5,6 +5,7 @@ body {
 	animation: gradient 15s ease infinite;
     margin: auto;
     width: 50%;
+    font-family: 'Pacifico', cursive;
 }
 
 @keyframes gradient {
@@ -23,9 +24,9 @@ body {
 
 div {
     padding: 10px;
-    background-color: burlywood;
+    background-color: #f3f0d7;
     border-radius: 20px;
-    border-color: #ff8c40;
+    border-color: #d8b384;
     border-style: dashed;
     margin: 10px auto;
 }
@@ -38,9 +39,9 @@ div {
 
 #div1 {
     padding: 15px;
-    background-color: burlywood;
+    background-color: #f3f0d7;
     border-radius: 10px;
-    border-color: #ff8c40;
+    border-color: #d8b384;
     border-style: groove; 
 }
 
@@ -51,6 +52,14 @@ div {
     border-color:#33ffdd;
 }
 
+h2, h3 {
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+#box {
+    border-style: inset;
+}
+
 button {
     align-items: center;
     text-transform: uppercase;
@@ -59,13 +68,14 @@ button {
     width: 50%;
     color:rgb(42, 7, 124);
     font-weight: 600;
-    background-color:#33ffdd;
-    border-color: #ff8c40;
+    background-color:cee5d0;
+    border-color: #d8b384;
+    font-family: 'Pacifico', cursive;
 }
 
 button:hover {
-    background-color: #ee33ff;
-    color: white;
+    background-color: #cee5d0 ;
+    color: #5e454b;
 }
 
 a {
@@ -82,12 +92,12 @@ a {
 
 /* useful info section*/
 .btn {
-    background-image: linear-gradient(to right, #ff8c40 0%, #33ffdd 50%, #ee33ff 100%);
+    background-image: linear-gradient(to right, #d8b384 0%, #f3f0d7 50%, #cee5d0 100%);
     margin: 10px;
   }
 
 .btn:hover {
-    color: rgb(23, 56, 241);
+    color: #5e454b;
   }
 
 /* font awesome */
