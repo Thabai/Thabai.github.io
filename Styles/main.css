@@ -27,7 +27,7 @@ div {
     background-color: #f3f0d7;
     border-radius: 20px;
     border-color: #d8b384;
-    border-style: dashed;
+    border-style: outset;
     margin: 10px auto;
 }
 
@@ -42,13 +42,12 @@ div {
     background-color: #f3f0d7;
     border-radius: 10px;
     border-color: #d8b384;
-    border-style: groove; 
 }
 
 #img {
     position: relative;
     width: 100%;
-    border-style: dashed;
+    border-style: double;
     border-color:#33ffdd;
 }
 
