@@ -1,0 +1,78 @@
+body {
+    font-family: 'Hachi Maru Pop', cursive;
+    background: linear-gradient(-45deg, #ff8c40, #33ffdd, #ee33ff);
+    background-size: 200% 200%;
+	animation: gradient 15s ease infinite;
+    margin: auto;
+    width: 40%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    
+    50% {
+        background-position: 100% 50%;
+    }
+    
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+div {
+    padding: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    border-color: #ff8c40;
+    border-style: dashed;
+    margin: 20px auto;
+}
+
+#img {
+    position: relative;
+    width: 100%;
+    border-style: dashed;
+    border-color:#33ffdd;
+}
+
+button {
+    align-items: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    justify-content: center;
+    width: 50%;
+    color:rgb(42, 7, 124);
+    font-weight: 600;
+    background-color:#33ffdd;
+    border-color: #ff8c40;
+}
+
+button:hover {
+    background-color: #ee33ff;
+    color: white;
+}
+
+a {
+    align-items: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    width: 60%;
+    color:rgb(42, 7, 124);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn {
+    background-image: linear-gradient(to right, #ff8c40 0%, #33ffdd 50%, #ee33ff 100%);
+    margin: 10px;
+  }
+
+.btn:hover {
+    color: rgb(23, 56, 241);
+  }
+  
