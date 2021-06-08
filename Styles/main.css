@@ -67,6 +67,7 @@ a {
     text-decoration: none;
 }
 
+/* useful info section*/
 .btn {
     background-image: linear-gradient(to right, #ff8c40 0%, #33ffdd 50%, #ee33ff 100%);
     margin: 10px;
@@ -75,4 +76,19 @@ a {
 .btn:hover {
     color: rgb(23, 56, 241);
   }
+
+/* font awesome */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+ 
+  .fa:hover {
+    opacity: 0.7;
+  }
+
   
