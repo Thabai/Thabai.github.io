@@ -51,6 +51,7 @@ h2, h3 {
 
 #box {
     border-style: inset;
+    background-image: linear-gradient(to left, #d8b384 0%, #f3f0d7 50%, #cee5d0 100%);
 }
 
 button {
@@ -85,7 +86,7 @@ a {
 
 /* useful info section*/
 .btn {
-    background-image: linear-gradient(to right, #d8b384 0%, #f3f0d7 50%, #cee5d0 100%);
+    background-image: linear-gradient(to left, #d8b384 0%, #f3f0d7 50%, #cee5d0 100%);
     margin: 10px;
   }
 
