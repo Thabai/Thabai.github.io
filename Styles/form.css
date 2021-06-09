@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+form {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
 * {box-sizing: border-box}
 
 /* Full-width input fields */
@@ -15,16 +21,13 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
 
 .input-radio {
-  display: block;
+  display: flexbox;
   margin-right: 0.625rem;
   min-height: 1.25rem;
   min-width: 1.25rem;
+  margin-bottom: 20px;
 }
 
 /* Set a style for all buttons */
