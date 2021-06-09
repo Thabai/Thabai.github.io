@@ -29,6 +29,7 @@ div {
     border-color: #d8b384;
     border-style: outset;
     justify-content: space-evenly;
+    min-width: 450px;
 }
 
 .container {
@@ -40,7 +41,8 @@ div {
 
 .container div {
     margin: 10px;
-    width: 800px;
+    width: 45%;
+    min-width: 400px;
 }
 
 #img {
