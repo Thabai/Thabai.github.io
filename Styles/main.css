@@ -39,6 +39,7 @@ div {
 
 .container div {
     margin: 10px;
+    width: 570px;
 }
 
 #img {
@@ -117,20 +118,3 @@ footer {
 .fa:hover {
     opacity: 0.7;
   }
-
-
-  @media only screen and (max-width: 1200px) {
-      
-    /* For mobile phones: */
-    body {
-        margin: auto;
-        width: 50%;
-    }
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .container div {
-        margin: 0px;
-    }
-} 
