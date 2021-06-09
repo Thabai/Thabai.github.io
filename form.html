@@ -1,142 +1,52 @@
-<head>
-    <meta charset="uft-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="Styles/main.css">
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
-  </style>
-    
-  </head>
-  
-  
-  
-  <div class="container">
-   
-    <header class="header">
-      <h1 id="title" class="header__title">World of Warcraft Player Survey</h1>
-      <p id="description" class="header__description">
-        Thank you for taking the time to let us know your character preferences
-      </p>
-      <div>
-      <img id="img" src="https://sm.pcmag.com/t/pcmag_uk/news/y/you-dont-n/you-dont-need-to-buy-world-of-warcraft-anymore_36b7.1920.jpg" alt="pcmag wow" aria-hidden="true">
-    </div>
-      <form id="survey-form">
-        <div class="form-group">
-          <label id="name-label" for="name">Name</label>
-          <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required />
-        </div>
-        <div class="form-group">
-          <label id="email-label" for="email">Email</label>
-          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required />
-        </div>
-        <div class="form-group">
-          <label id="number-label" for="number">How many years have you been playing?</label>
-          <input type="number" name="years" id="number" min="0" max="15" class="form-control" placeholder="Enter years here" required />
-        </div>
-  
-        <div class="form-group">
-          <p>Which faction do you play?</p>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="Styles/form.css">
+    </head>
+    <body>
+
+      <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Start your digital journey</h1>
+          <h2>Sign up to one of the Code Nation courses</h2>
+<div>
+          <label for="fname"><b>First name</b></label>
+          <input type="text" placeholder="Enter Name" name="fname" required>
+          <label for="sname"><b>Surname</b></label>
+          <input type="text" placeholder="Enter Surname" name="sname" required>
+</div>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+
+          <label for="username"><b>Username</b></label>
+          <input type="text" placeholder="Create a Username" name="username" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+          <div class="form-group">
+            <h2>Which course are you interested in?</h2>
+            <label>
+              <input name="course" value="mcoding" type="radio" class="input-radio" />Master Coding</label>
+            <label>
+              <input name="course" value="mcyber" type="radio" class="input-radio" />Master Cyber</label>
+          </div>
+
           <label>
-            <input name="user-fac" value="Horde" type="radio" class="input-radio" checked />Horde</label>
-          <label>
-            <input name="user-fac" value="Alliance" type="radio" class="input-radio" />Alliance</label>
-        </div>
-  
-        <p>Which races do you prefer playing?</p><span class="clue">(Check all that apply)</span>
-        <div class="form-group checkbox-list">
-           
-  
-          <label><input name="prefer" value="Human" type="checkbox" class="input-checkbox" />Human</label>
-          <label>
-            <input name="prefer" value="Dwarf" type="checkbox" class="input-checkbox" />Dwarf</label>
-          <label>
-            <input name="prefer" value="Night Elf" type="checkbox" class="input-checkbox" />Night Elf</label>
-          <label><input name="prefer" value="Gnome" type="checkbox" class="input-checkbox" />Gnome</label>
-          <label><input name="prefer" value="Draenei" type="checkbox" class="input-checkbox" />Draenei</label>
-          <label><input name="prefer" value="Worgen" type="checkbox" class="input-checkbox" />Worgen</label>
-          <label><input name="prefer" value="Pandaren" type="checkbox" class="input-checkbox" />Pandaren</label>
-          <label><input name="prefer" value="Orc" type="checkbox" class="input-checkbox" />Orc</label>
-          <label><input name="prefer" value="Undead" type="checkbox" class="input-checkbox" />Undead</label>
-          <label><input name="prefer" value="Tauren" type="checkbox" class="input-checkbox" />Tauren</label>
-          <label><input name="prefer" value="Troll" type="checkbox" class="input-checkbox" />Troll</label>
-          <label><input name="prefer" value="Blood Elf" type="checkbox" class="input-checkbox" />Blood Elf</label>
-          <label><input name="prefer" value="Goblin" type="checkbox" class="input-checkbox" />Goblin</label>
-          <label><input name="prefer" value="Other" type="checkbox" class="input-checkbox" />Other</label>
-        </div>
-  
-        <div class="form-group">
-          <p>What is your preferred role?</p>
-          <label>
-            <input name="user-role" value="Tank" type="radio" class="input-radio" />Tank</label>
-          <label>
-            <input name="user-role" value="Healer" type="radio" class="input-radio" />Healer</label>
-  
-          <label><input name="user-role" value="DPS" type="radio" class="input-radio" />DPS</label>
-        </div>
-  
-        <div class="form-group">
-          <p>What class is your main character?</p>
-          <select id="dropdown" name="role" class="form-control" required>
-            <option disabled selected value>Choose class</option>
-            <optgroup label="Warrior">
-              <option value="Tank">Tank</option>
-              <option value="Damage">Damage</option>
-            </optgroup>
-            <optgroup label="Paladin">
-              <option value="Tank">Tank</option>
-              <option value="Healer">Healer</option>
-              <option value="Damage">Damage</option>
-            </optgroup>
-            <optgroup label="Hunter">
-              <option value="Damage">Damage</option>
-            </optgroup>
-            <optgroup label="Rogue">
-              <option value="Damage">Damage</option>
-            </optgroup>
-            <optgroup label="Priest">
-              <option value="Healer">Healer</option>
-              <option value="Damage">Damage</option>
-            </optgroup>
-            <optgroup label="Shaman">
-              <option value="Healer">Healer</option>
-              <option value="Damage">Damage</option>
-            </optgroup>
-            <optgroup label="Mage">
-              <option value="Damage">Damage</option>
-            </optgroup>
-            <optgroup label="Warlock">
-              <option value="Damage">Damage</option>
-            </optgroup>
-            <optgroup label="Monk">
-              <option value="Tank">Tank</option>
-              <option value="Healer">Healer</option>
-              <option value="Damage">Damage</option>
-            </optgroup>
-            <optgroup label="Druid">
-              <option value="Tank">Tank</option>
-              <option value="Healer">Healer</option>
-              <option value="Damage">Damage</option>
-            </optgroup>
-            <optgroup label="Demon Hunter">
-              <option value="Tank">Tank</option>
-              <option value="Damage">Damage</option>
-            </optgroup>
-            <optgroup label="Death Knight">
-              <option value="Tank">Tank</option>
-              <option value="Damage">Damage</option>
-            </optgroup>
-          </select>
-        </div>
-  
-        <div class="form-group">
-          <p>What made you start playing?</p>
-          <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
-        </div>
-  
-        <div class="form-group">
-          <button type="submit" id="submit" class="submit-button">
-            Submit
-          </button>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+          <div class="clearfix">
+            <button type="submit" class="signupbtn">Sign Up</button>
+            <button type="button" class="cancelbtn">Cancel</button>
+          </div>
         </div>
       </form>
-  </div>
