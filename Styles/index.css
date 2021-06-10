@@ -66,6 +66,8 @@
 
   a:hover {
     font-family: 'Hachi Maru Pop', cursive;
+    font-weight: bold;
+    font-size: 25px;
     color: rgb(66, 7, 45);
     border-style: double;
     border-radius: 20px;
