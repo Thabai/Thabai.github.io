@@ -1,0 +1,73 @@
+
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-image: url(https://images.pexels.com/photos/1182338/pexels-photo-1182338.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+  .container {
+    align-items: center;
+    display: flex;
+    justify-items: auto;
+    justify-content: center;
+    height: 100%;
+    backdrop-filter: blur(1px);
+
+  }
+
+
+  /* blur section*/
+  .box {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1;
+    backdrop-filter: blur(10px);
+    padding: 20px 40px;
+    width: 50vh;
+    height: 30vh;
+    animation: example 10s;
+  }
+
+  @keyframes example {
+    0%   {background-color:rgba(255,0,255,0.3)}
+    50%  {background-color:rgba(192,192,192,0.3)}
+    100% {background-color: rgba(255, 255, 255, 0.3)}
+  }
+
+  h1 {
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  /* list */
+  ul {
+    list-style-type: none;
+    display: flex;
+    padding: 100px;
+    justify-content: space-evenly;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-family: 'Hachi Maru Pop', cursive;
+    color: rgb(66, 7, 45);
+    border-style: double;
+    border-radius: 20px;
+    padding: 15px;
+  }
