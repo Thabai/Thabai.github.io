@@ -101,6 +101,20 @@ button {
 button:hover {
     background-color: #c0c0c0;
     color: rgb(42, 7, 124);
+    animation-name: button;
+    animation-duration: 3s;
+}
+
+
+@keyframes button {
+    0% {
+        background-color: #a790a7;
+        box-shadow: 1px 1px 0 darkgrey;
+    }
+    100% {
+        background-color: #c0c0c0;
+        box-shadow: 1px 1px 0 black;
+}
 }
 
 /* useful info and footer*/
