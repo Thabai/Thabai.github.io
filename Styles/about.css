@@ -66,6 +66,7 @@ div {
     border-style: double;
     border-color: #a588a5;
     opacity: 0.8;
+    border-radius: 10%;
 }
 
 h1 {
