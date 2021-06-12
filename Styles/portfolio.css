@@ -14,27 +14,35 @@
    
 }
 
-.container {
-    align-items: top;
-    display: block;
-    flex-wrap: wrap;
-    /* height: 100%; */
-    backdrop-filter: blur(1px);
-
-  }
-
   /*top nav*/
-.box {
+nav {
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
     font-family: sans-serif;
-    /* text-align: left;
-    line-height: 1; */
     backdrop-filter: blur(10px);
     padding: 20px 40px;
-    /* width: 50vh;
-    height: 30vh; */
+    display: flex;
+    flex-wrap: nowrap;
   }
+
+a {
+  width: 50%;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+span {
+  width: 50%;
+  margin-left: 80%;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+
+
 
 /* scrollbar */
 /* width */

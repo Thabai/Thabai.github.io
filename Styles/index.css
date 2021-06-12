@@ -39,11 +39,11 @@
     border-radius: 40px;
     border-color: rgba(255, 255, 255, 0.3);
     border-style: groove;
-    animation: example 10s;
+    animation: box 20s;
   }
 
-  @keyframes example {
-    0%   {background-color:rgba(150,45,113,0.3)}
+  @keyframes box {
+    0%   {background-color:rgba(139, 58, 111, 0.3)}
     50%  {background-color:rgba(192,192,192,0.3)}
     100% {background-color: rgba(255, 255, 255, 0.3)}
   }
