@@ -1,0 +1,55 @@
+
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+   body {
+    background-image: url(https://images.pexels.com/photos/1182338/pexels-photo-1182338.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.container {
+    align-items: top;
+    display: block;
+    flex-wrap: wrap;
+    /* height: 100%; */
+    backdrop-filter: blur(1px);
+
+  }
+
+  /*top nav*/
+.box {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-family: sans-serif;
+    /* text-align: left;
+    line-height: 1; */
+    backdrop-filter: blur(10px);
+    padding: 20px 40px;
+    /* width: 50vh;
+    height: 30vh; */
+  }
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #f3e5e5;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c0c0c0;
+    border-radius: 10px;
+}

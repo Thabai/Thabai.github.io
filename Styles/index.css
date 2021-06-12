@@ -3,9 +3,10 @@
   body {
     height: 100%;
     width: 100%;
+    overflow: hidden;
   }
   
-  body {
+   body {
     background-image: url(https://images.pexels.com/photos/1182338/pexels-photo-1182338.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-position: center center;
     background-repeat: no-repeat;
@@ -72,4 +73,5 @@
     border-style: double;
     border-radius: 20px;
     padding: 15px;
+    background-color: honeydew;
   }
