@@ -36,11 +36,14 @@
     padding: 20px 40px;
     width: 50vh;
     height: 30vh;
+    border-radius: 40px;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-style: groove;
     animation: example 10s;
   }
 
   @keyframes example {
-    0%   {background-color:rgba(255,0,255,0.3)}
+    0%   {background-color:rgba(150,45,113,0.3)}
     50%  {background-color:rgba(192,192,192,0.3)}
     100% {background-color: rgba(255, 255, 255, 0.3)}
   }
@@ -69,9 +72,10 @@
     font-family: 'Hachi Maru Pop', cursive;
     font-weight: bold;
     font-size: 25px;
-    color: rgb(66, 7, 45);
-    border-style: double;
+    color: rgb(150, 45, 113);
+    border-color: rgba(255, 255, 255, 0.3);
+    border-style: inset;
     border-radius: 20px;
     padding: 15px;
-    background-color: honeydew;
+    background-color: rgba(192,192,192,0.3);
   }

@@ -8,6 +8,7 @@ body {
     font-family: 'Pacifico', cursive;
 }
 
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -26,10 +27,7 @@ div {
     width: 88%;
     padding: 10px;
     margin-top: 10px;
-    background-color: rgb(231, 224, 224);
-    border-radius: 20px;
-    border-color: #c4b2c4;
-    border-style: outset;
+    background-color: transparent;
     display: relative;
     justify-content: space-evenly;
     opacity: 0.9;
@@ -57,7 +55,14 @@ h3 {
 
 .container {
     display: flex;
-    background-color: rgba(255, 255, 255, 0.3)
+}
+
+/*style inner div*/
+.inner {
+    border-radius: 20px;
+    border-color: #c4b2c4;
+    border-style: outset;
+    background-color: rgb(231, 224, 224);
 }
 
 /*next section*/
@@ -65,7 +70,6 @@ h3 {
     display: inherit;
     flex-wrap: nowrap;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.3)
 }
 
 
@@ -86,6 +90,7 @@ h3 {
         width: 22%;
         padding: 10px;
     }
+
 }
 
 
@@ -95,11 +100,10 @@ h3 {
     display: flex;
     flex-wrap: nowrap;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.3)
 }
 
 .container2 div {
-    width: 50%;
+    width: 48%;
 }
 
 /*text section*/
@@ -164,19 +168,19 @@ a{
 }
 
 .box {
-    background-color: rgba(255, 255, 255, 0.3);
     text-align: center;
     line-height: 1;
     backdrop-filter: blur(10px);
     padding: 10px 20px;
-    width: 87%;
+    margin: center;
   }
 
 /* font awesome */
 footer {
-    width: 90%;
-    align-items: center;
+    width: 88%;
+    align-items: center; 
     display: flex;
+    flex-wrap: nowrap;
     padding-bottom: 10px;
     padding-top: 10px;
 }
