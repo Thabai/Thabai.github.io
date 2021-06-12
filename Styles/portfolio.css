@@ -1,9 +1,16 @@
+html {
+  box-sizing: border-box;
+}
 
-  html,
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+ 
+ html,
   body {
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    margin: 0;
   }
   
    body {
@@ -16,30 +23,38 @@
 
   /*top nav*/
 nav {
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
     font-family: sans-serif;
     backdrop-filter: blur(10px);
     padding: 20px 40px;
     display: flex;
-    flex-wrap: nowrap;
   }
 
-a {
-  width: 50%;
-  list-style-type: none;
+
+.icon {
+  width: 10%;
   text-decoration: none;
   color: black;
+  display: flexbox;
+  text-align: center;
 }
 
-span {
-  width: 50%;
-  margin-left: 80%;
-}
+.mainmenu { 
+  width: 75%;
+  display: flexbox;
+  text-align: right;
+  text-decoration: none;
+  color:black;
+ }
 
 a:hover {
   opacity: 0.5;
 }
+
+/* carousel*/
+
 
 
 
@@ -61,3 +76,9 @@ a:hover {
     background: #c0c0c0;
     border-radius: 10px;
 }
+
+
+
+
+
+
