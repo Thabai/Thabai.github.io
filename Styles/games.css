@@ -1,0 +1,90 @@
+/* Some CSS Setup - nothing to do with flexbox */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+
+}
+
+a {
+  color:white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-decoration: none;
+  background:rgba(0,0,0,0.2);
+  padding:20px 5px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  transition:all 0.5s;
+}
+
+a:hover {
+  background:rgba(0,0,0,0.3);
+}
+
+
+/* Flex Container */
+.flex-nav ul {
+  border:1px solid black;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+
+/* makes top full length of flex */
+.flex-nav li {
+  width: 13%;
+}
+
+.social {
+  flex: 1;
+}
+
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding:50px;
+}
+
+
+
+
+@media all and (max-width:1000px) {
+  .flex-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .flex-nav li {
+    width: 50%;
+  }
+
+.social {
+  flex: 25;
+}}
+
+ @media all and (max-width:500px) {
+.flex-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .flex-nav li {
+    width: 100%;
+
+
+.social {
+  flex: 25;
+}}
+
