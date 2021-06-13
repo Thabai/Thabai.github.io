@@ -72,7 +72,7 @@ div .slider {
   margin-left: 30%;
 }
 
-@media screen and (min-width:400px) and (max-width:900px){
+@media screen and (min-width:400px) and (max-width:1800px){
   div .slider {
   width: 60%;
   margin-left: 20%;
