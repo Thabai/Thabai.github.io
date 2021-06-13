@@ -36,9 +36,14 @@ nav {
     display: flex;
   }
 
+.name {
+  width: 75%;
+  display: flexbox;
+  text-align: center;
+}
 
 .icon {
-  width: 10%;
+  width: 5%;
   text-decoration: none;
   color: black;
   display: flexbox;
@@ -46,7 +51,7 @@ nav {
 }
 
 .mainmenu { 
-  width: 75%;
+  width: 13%;
   display: flexbox;
   text-align: right;
   text-decoration: none;
@@ -64,12 +69,12 @@ div .slider {
   padding: 10px;
   margin-top: 30vh;
   background-color: transparent;
-  margin-left: 30%;
+  margin-left: 40%;
 }
 
 @media all and (min-width:600px) {
   div .slider {
-  margin-left: 40%;
+  margin-left: 20%;
 }}
 
 
@@ -95,8 +100,8 @@ div .slider {
 .slides > div {
   scroll-snap-align: start;
   flex-shrink: 0;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   border-radius: 10px;
   position: relative;
   display: flex;
@@ -118,8 +123,8 @@ img {
 /*number slider*/
 .slider > a {
   display: inline-flex;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 4.5rem;
+  height: 4.5rem;
   background: rgb(226, 84, 191);
   text-decoration: none;
   align-items: center;
