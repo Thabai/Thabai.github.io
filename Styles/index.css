@@ -39,7 +39,7 @@
     border-radius: 40px;
     border-color: rgba(255, 255, 255, 0.3);
     border-style: groove;
-    animation: box 20s;
+    animation: box 10s;
   }
 
   @keyframes box {
@@ -50,7 +50,7 @@
 
   h1 {
     font-family: 'Hachi Maru Pop', cursive;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     text-align: center;
   }
@@ -82,8 +82,3 @@
     background-color: rgba(192,192,192,0.3);
   }
 
-  @media screen and (max-width:400px) { 
-    h1 {
-      font-size: 70px;
-    }
-  }
