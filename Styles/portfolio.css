@@ -72,7 +72,7 @@ div .slider {
   margin-left: 40%;
 }
 
-@media all and (min-width:600px) {
+@media all and (max-width:600px) {
   div .slider {
   margin-left: 20%;
 }}
