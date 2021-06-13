@@ -64,20 +64,21 @@ nav a:hover {
 
 /* carousel*/
 div .slider {
-  width: 650px;
-  height: 800px;
+  width: 40%;
+  height: 60%;
   padding: 10px;
   margin-top: 30vh;
   background-color: transparent;
   margin-left: 30%;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:968px) {
   div .slider {
-  margin-left: 10%;
+  width: 100%;
+  margin-left: 0%;
 }}
 
-
+/* scrollbar*/
 .slides {
   display: flex;
   overflow-x: auto;
