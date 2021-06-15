@@ -100,10 +100,10 @@ a, span {
   text-decoration: none;
 }
 
-/*red and green on boxes*/
-#lab:invalid {
-  border: 2px solid red;
+/* red and green on boxes */
+ #input:invalid, #psw:invalid { 
+ border: 2px solid red;
 }
-#lab:valid {
+#input:valid, #psw:valid  {
   border: 2px solid green;
 }

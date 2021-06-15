@@ -1,6 +1,7 @@
-//password matching alert
 
-var passwordMatch = function() {
+
+// password matching alert 
+const passwordMatch = function() {
     if (document.getElementById('psw').value ==
       document.getElementById('pswRepeat').value) {
       document.getElementById('message').style.color = 'green';
