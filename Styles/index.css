@@ -10,7 +10,6 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .container {
@@ -20,9 +19,7 @@ body {
   justify-content: center;
   height: 100%;
   backdrop-filter: blur(1px);
-
 }
-
 
 /* blur section*/
 .box {
@@ -90,7 +87,6 @@ h1 {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
 
 .icon {
   margin: 0 auto;
