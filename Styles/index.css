@@ -18,7 +18,6 @@ body {
   justify-items: auto;
   justify-content: center;
   height: 100%;
-  backdrop-filter: blur(1px);
 }
 
 /* blur section*/
@@ -28,7 +27,6 @@ body {
   font-family: sans-serif;
   text-align: center;
   line-height: 1;
-  backdrop-filter: blur(10px);
   padding: 20px 40px;
   width: 50%;
   height: 35%;
@@ -54,8 +52,8 @@ body {
 
 h1 {
   font-family: 'Hachi Maru Pop', cursive;
-  font-size: 60px;
-  font-weight: bold;
+  font-size: 65px;
+  font-weight: bolder;
   text-align: center;
 }
 
@@ -72,7 +70,7 @@ h1 {
   max-width: 300px;
   min-width: 100px;
   height: 200px;
-  background-color: rgba(192, 192, 192, 0.3);
+  background-color: rgba(192, 192, 192, 0.6);
   margin: 10px;
   border-radius: 10px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
@@ -85,7 +83,7 @@ h1 {
   align-items: center;
   flex-direction: column;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .icon {
@@ -105,7 +103,6 @@ h1 {
 
 .card .title {
   width: 100%;
-  margin: 0;
   text-align: center;
   margin-top: 30px;
   color: white;
@@ -116,7 +113,6 @@ h1 {
 
 .card .text {
   width: 80%;
-  margin: 0 auto;
   font-size: 13px;
   text-align: center;
   margin-top: 20px;
@@ -138,14 +134,14 @@ h1 {
 }
 
 .card:hover .text {
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   opacity: 1;
   max-height: 40px;
 }
 
 .card:hover .icon {
   background-position: -120px;
-  transition: all 0.3s ease;
+  transition: all 0.8s ease;
 }
 
 .card:hover .icon a {
@@ -153,7 +149,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 1;
-  transition: all 0.3s ease;
+  transition: all 0.8s ease;
 }
 
 @media screen and (max-width: 467px) {
