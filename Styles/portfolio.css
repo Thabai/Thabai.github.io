@@ -21,7 +21,7 @@ html {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-   
+    color: white;
 }
 
   /*top nav*/
@@ -40,6 +40,7 @@ nav {
   width: 80%;
   display: flexbox;
   text-align: center;
+  color: black;
 }
 
 .icon {
@@ -72,9 +73,14 @@ div .slider {
   margin-left: 30%;
 }
 
-@media screen and (min-width:400px) and (max-width:1800px){
+@media screen and (max-width:1200px){
   div .slider {
   width: 60%;
+  margin-left: 20%;
+}}
+@media screen and (min-width:1200px) and (max-width:1900px){
+  div .slider {
+  width: 40%;
   margin-left: 20%;
 }}
 
